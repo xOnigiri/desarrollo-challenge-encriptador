@@ -1,3 +1,2 @@
 <h1 align="center"> Challenge Encriptador </h1>
-![Static Badge](https://img.shields.io/badge/release_date-august-blue)
-
+![descarga](https://github.com/user-attachments/assets/36efae15-3e41-4322-872d-17d70d68e1d7)
