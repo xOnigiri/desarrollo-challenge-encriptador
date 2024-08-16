@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/bill-icon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <title>Challenge Encriptador de Texto</title>
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <a href="#" rel="">
+            <img class="logo" src="assets/Logo.png" alt="Logo de Alura">
+        </a>
+    </header>
+
+    <!--Seccion principal-->
+    <main>
+        <section class="encriptador">
+            <textarea class="text-area" placeholder="Ingresa el texto aqui"></textarea>
+            <div class="aviso">
+                <img class="img-aviso" src="assets/bi_exclamation-circle-fill.png" alt="Imagen Aviso">
+                <p class="text-aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" type="submit" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" type="submit" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="resultado">
+            <div class="resultado-contenedor">
+                <img class="img-muñeco" src="assets/Muñeco.png" alt="Imagen del Muñeco">
+                <p class="not-found">Ningún mensaje encontrado</p>
+                <p class="instruction">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <textarea class="evaluar" type="mensaje" readonly></textarea>
+            <button class="btn-copy" type="submit">Copiar</button>
+        </section>
+    </main>
+
+    <!--Pie de pagina-->
+    <footer>
+        <p class="copyright">&copy; Copyright 2024 - Encriptador de Texto - Desarrollado por Fabian Fernandez Gonzales</p>
+        <a class="instagram" href="https://www.instagram.com/fab.fernandezzz/">
+            <img src="assets/instagram.png" alt="Logo de Instagram">
+        </a>
+        <a class="linkedin" href="https://www.linkedin.com/in/fabian-fernandez-gonzales/">
+            <img src="assets/linkedin.png" alt="Logo de Linkedin">
+        </a>
+        <a class="github" href="https://github.com/xOnigiri">
+            <img src="assets/github.png" alt="Logo de Github">
+        </a>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
